@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan and Rowspan Example</title>
+</head>
+<body>
+    <h1>HTML Table with Colspan and Rowspan</h1>
+    <!-- The `colspan` and `rowspan` attributes are used in table cells to merge multiple columns or rows, respectively. This allows for more complex table layouts. -->
+    <!-- Colspan: The `colspan` attribute specifies the number of columns a cell should span. -->
+    <!-- Rowspan: The `rowspan` attribute specifies the number of rows a cell should span. -->
+    <table border="3px" style="width: 70%;" >
+  <tr  style="margin: 2px; padding: 5px;" >
+      <td colspan="5" rowspan="2">1</td>
+      <td rowspan="5">2</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr >
+      <td rowspan="5">3</td>
+      <td colspan="2" rowspan="2">4</td>
+      <td colspan="2">5</td>
+
+  </tr>
+  <tr>
+      <td rowspan="2" colspan="2">6</td>
+
+  </tr>
+  <tr>
+      <td>7</td>
+      <td>8</td>
+
+  </tr>
+  <tr>
+      <td colspan="2">9</td>
+      <td colspan="3">10</td>
+
+  </tr>
+  <tr>
+      <td colspan="5">11</td>
+
+  </tr>
+  <tr>
+      <td colspan="3">12</td>
+      <td colspan="3">13</td>
+  </tr>
+</table>
+
+</body>
+</html>

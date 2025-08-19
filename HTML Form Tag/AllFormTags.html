@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tags Of Form</title>
+</head>
+<body>
+    <!-- All Tags Of Form -->
+    <h1>All Tags Of Form</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Basic Information</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" placeholder="First Name" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Last Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email"placeholder="Email" required>
+            <label for="password">Pasword:</label>
+            <input type="password" id="password" placeholder="Pasword"required >
+            <label for="url">Url:</label>
+            <input type="url" name="Url" id="url" placeholder="Enter Url" required><br><br>
+            <label for="number">Contact No. :</label>
+            <input type="Contact number"id="number" placeholder="Number"required ><br><br>
+            <button type="button">submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+    <br>
+    <fieldset>
+        <legend>Necessary Information</legend>
+        <form action="" method="get">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Age" required>
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Additional Information</legend>
+        <label for="color">color:</label>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" name="Gender" id="Male">Male
+        <input type="radio" name="Gender" id="Female">Female
+        <input type="radio" name="Gender" id="Other">Other <br>
+        <label for="Date:">Date:
+        <input type="date" name="Date" id="Date">
+        <label for="Time">Time:
+        <input type="time" id="Time">
+        <label for="month">Month:
+        <input type="month" name="month" id="month">
+        <label for="week">week:
+        <input type="week" name="week" id="week"><br>
+        <label for="range">Range:
+        <input type="range" name="Range" id="Range" max="10000" min="0" ><br><br>
+        <textarea name="Discription" id="Text" cols="60" rows="10"  required> Write The Discription About you........</textarea><br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Check box</legend>
+      <label for="check box" style="font-size: 15px;">Slect you Favourite thing<br>
+      Computer<input type="checkbox" name="" id="">
+      Laptop <input type="checkbox" name="" id="">
+      Mobile <input type="checkbox" name="" id="">
+      i paid<input type="checkbox" name="" id="">
+      VIVO<input type="checkbox" name="" id="">
+      Samsung<input type="checkbox" name="" id="">
+      Gaming LCD<input type="checkbox" name="" id="">
+      Gaming Mouse<input type="checkbox" name="" id="">
+      Data Cable <input type="checkbox" name="" id="">
+      Loud Speaker<input type="checkbox" name="" id="">
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>File Upload</legend>
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf"><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Links</legend>
+        <button> <a href="http://www.youtube.com">Youtube</a></button><br><br>
+        <button> <a href="http://www.google.com">Google</a></button><br><br>
+        <button> <a href="http://www.facebook.com">Facebook</a></button>
+    </fieldset>
+    <br>
+</body>
+</html>
